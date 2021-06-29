@@ -22,3 +22,26 @@
 * region_rating - рейтинг региона
 * app_date - дата подачи заявки
 * default - флаг дефолта по кредиту
+
+В ходе работы были проведены следующие действия:
+* Предварительный анализ данных
+* Создание новых признаков
+* Преобразование переменных
+* Построение модели
+
+В ходе работы наилучшие результаты показала модель LogisticRegression со следующими параметрами:<br>
+(C=1.0,
+class_weight='balanced',
+dual=False,
+fit_intercept=True,
+intercept_scaling=1,
+l1_ratio=None,
+max_iter=100,
+multi_class='auto',
+n_jobs=None,
+penalty='l1',
+random_state=42,
+solver='liblinear',
+tol=0.0001,
+verbose=0,
+warm_start=False)
