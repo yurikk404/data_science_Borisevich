@@ -30,18 +30,18 @@
 * Построение модели
 
 В ходе работы наилучшие результаты показала модель LogisticRegression со следующими параметрами:<br>
-(C=1.0,
-class_weight='balanced',
-dual=False,
-fit_intercept=True,
-intercept_scaling=1,
-l1_ratio=None,
-max_iter=100,
-multi_class='auto',
-n_jobs=None,
-penalty='l1',
-random_state=42,
-solver='liblinear',
-tol=0.0001,
-verbose=0,
+(C=1.0,<br>
+class_weight='balanced',<br>
+dual=False,<br>
+fit_intercept=True,<br>
+intercept_scaling=1,<br>
+l1_ratio=None,<br>
+max_iter=100,<br>
+multi_class='auto',<br>
+n_jobs=None,<br>
+penalty='l1',<br>
+random_state=42,<br>
+solver='liblinear',<br>
+tol=0.0001,<br>
+verbose=0,<br>
 warm_start=False)
